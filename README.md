@@ -21,7 +21,10 @@ We applied two different metaheuristic algorithms to solve this complex problem:
 We tested the model using **Eurostat data (2022)** for **Germany** and **France**.
 * **Findings:** Both algorithms successfully identified energy mixes that increased renewable shares while staying within price and emission limits.
 * **Algorithm Comparison:** While PSO was faster at finding a good solution, GA often achieved a better overall balance (fitness score) in the German case.
-  
+![GA vs PSO Convergence](images/ga_and_pso_for_DE.png)
+![GA vs PSO Convergence](images/ga_and_pso_for_FR.png)
+[cite_start]*Comparison of Genetic Algorithm and Particle Swarm Optimization based on best fitness values[cite: 496].*
+
 ### 🚀 Technologies Used
 * **Python:** Core development and algorithm implementation.
 * **Optimization Techniques:** Genetic Algorithms, Particle Swarm Optimization.
