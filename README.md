@@ -23,7 +23,6 @@ We tested the model using **Eurostat data (2022)** for **Germany** and **France*
 * **Algorithm Comparison:** While PSO was faster at finding a good solution, GA often achieved a better overall balance (fitness score) in the German case.
 ![GA vs PSO Convergence](images/ga_and_pso_for_DE.png)
 ![GA vs PSO Convergence](images/ga_and_pso_for_FR.png)
-[cite_start]*Comparison of Genetic Algorithm and Particle Swarm Optimization based on best fitness values[cite: 496].*
 
 ### 🚀 Technologies Used
 * **Python:** Core development and algorithm implementation.
